@@ -35,4 +35,15 @@ Current language:  auto; currently minimal
 #9  0x0000000000000000 in ?? ()
 ```
 
+# How to repeat
+
+```
+$ git clone https://github.com/freebsd/freebsd-ports.git /usr/ports
+$ git clone git@github.com:ehaupt/ports-wip.git
+$ cd ports-wip.git/ports/audio/hivelytracker
+$ make missing | xargs pkg install -y -r
+$ make install
+$ hivelytracker
+```
+
 # Tickets/Bugs
