@@ -1,0 +1,128 @@
+bin/hivelytracker
+share/applications/hivelytracker.desktop
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/chiprolled.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/doobrey_gubbins.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/drainage_proble.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/illuminated.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/karma.ahx
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/moderate_sellotaping.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/sliding_away.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/sunspots.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/syphus-Afterstorm.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/there_you_are.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/waiting_for_a_message.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/yoake_no_myoujou.hvl
+%%DATADIR%%/Filtered Bass1.ins
+%%DATADIR%%/Filtered Bass2.ins
+%%DATADIR%%/Filtered Bassdrum1.ins
+%%DATADIR%%/Filtered FX1.ins
+%%DATADIR%%/Filtered Hihat1.ins
+%%DATADIR%%/Filtered Lead1.ins
+%%DATADIR%%/Filtered Lead2.ins
+%%DATADIR%%/Filtered Snare1.ins
+%%DATADIR%%/Filtered Technobassdrum1.ins
+%%DATADIR%%/Ring Modulation Test 1.ins
+%%DATADIR%%/Ring Modulation Test 2.ins
+%%DATADIR%%/Ring Modulation Test 3.ins
+%%DATADIR%%/Ring Modulation Test 4.ins
+%%DATADIR%%/Ring Modulation Test 5.ins
+%%DATADIR%%/Ring Modulation Test 6.ins
+%%DATADIR%%/Ring Modulation Test 7.ins
+%%DATADIR%%/Ring Modulation Test 8.ins
+%%DATADIR%%/Skins/SIDMonster-Light/Settings_os3
+%%DATADIR%%/Skins/SIDMonster-Light/Settings_os4
+%%DATADIR%%/Skins/SIDMonster-Light/aboutfont.png
+%%DATADIR%%/Skins/SIDMonster-Light/bg_insed.png
+%%DATADIR%%/Skins/SIDMonster-Light/bg_tracker.png
+%%DATADIR%%/Skins/SIDMonster-Light/blank.png
+%%DATADIR%%/Skins/SIDMonster-Light/butbankp.png
+%%DATADIR%%/Skins/SIDMonster-Light/butbankr.png
+%%DATADIR%%/Skins/SIDMonster-Light/chanmute.png
+%%DATADIR%%/Skins/SIDMonster-Light/depth.png
+%%DATADIR%%/Skins/SIDMonster-Light/dir_popup.png
+%%DATADIR%%/Skins/SIDMonster-Light/itab_left.png
+%%DATADIR%%/Skins/SIDMonster-Light/itab_mid.png
+%%DATADIR%%/Skins/SIDMonster-Light/itab_right.png
+%%DATADIR%%/Skins/SIDMonster-Light/logo.png
+%%DATADIR%%/Skins/SIDMonster-Light/plusminus.png
+%%DATADIR%%/Skins/SIDMonster-Light/prefs_cycle.png
+%%DATADIR%%/Skins/SIDMonster-Light/prefs_os3.png
+%%DATADIR%%/Skins/SIDMonster-Light/prefs_os4.png
+%%DATADIR%%/Skins/SIDMonster-Light/tab_area.png
+%%DATADIR%%/Skins/SIDMonster-Light/tab_left.png
+%%DATADIR%%/Skins/SIDMonster-Light/tab_mid.png
+%%DATADIR%%/Skins/SIDMonster-Light/tab_right.png
+%%DATADIR%%/Skins/SIDMonster-Light/trkbankp.png
+%%DATADIR%%/Skins/SIDMonster-Light/trkbankr.png
+%%DATADIR%%/Skins/SIDMonster-Light/vumeter.png
+%%DATADIR%%/Skins/SIDMonster-Light/wavemeter.png
+%%DATADIR%%/Skins/Vintage/Settings_os3
+%%DATADIR%%/Skins/Vintage/Settings_os4
+%%DATADIR%%/Skins/Vintage/aboutfont.png
+%%DATADIR%%/Skins/Vintage/bg_insed.png
+%%DATADIR%%/Skins/Vintage/bg_tracker.png
+%%DATADIR%%/Skins/Vintage/blank.png
+%%DATADIR%%/Skins/Vintage/butbankp.png
+%%DATADIR%%/Skins/Vintage/butbankr.png
+%%DATADIR%%/Skins/Vintage/chanmute.png
+%%DATADIR%%/Skins/Vintage/depth.png
+%%DATADIR%%/Skins/Vintage/dir_popup.png
+%%DATADIR%%/Skins/Vintage/itab_left.png
+%%DATADIR%%/Skins/Vintage/itab_mid.png
+%%DATADIR%%/Skins/Vintage/itab_right.png
+%%DATADIR%%/Skins/Vintage/itab_text.png
+%%DATADIR%%/Skins/Vintage/logo.png
+%%DATADIR%%/Skins/Vintage/plusminus.png
+%%DATADIR%%/Skins/Vintage/prefs_cycle.png
+%%DATADIR%%/Skins/Vintage/prefs_os3.png
+%%DATADIR%%/Skins/Vintage/prefs_os4.png
+%%DATADIR%%/Skins/Vintage/tab_area.png
+%%DATADIR%%/Skins/Vintage/tab_left.png
+%%DATADIR%%/Skins/Vintage/tab_mid.png
+%%DATADIR%%/Skins/Vintage/tab_right.png
+%%DATADIR%%/Skins/Vintage/tab_text.png
+%%DATADIR%%/Skins/Vintage/trkbankp.png
+%%DATADIR%%/Skins/Vintage/trkbankr.png
+%%DATADIR%%/Skins/Vintage/vumeter.png
+%%DATADIR%%/Skins/Vintage/wavemeter.png
+%%DATADIR%%/apol.7-b5.ins
+%%DATADIR%%/apol.Snare5.ins
+%%DATADIR%%/apol.lead5.ins
+%%DATADIR%%/apol.m7.ins
+%%DATADIR%%/apol.major7.ins
+%%DATADIR%%/as_plink.ins
+%%DATADIR%%/as_reallynice.ins
+%%DATADIR%%/asbassx.ins
+%%DATADIR%%/asbassx2.ins
+%%DATADIR%%/aslead.ins
+%%DATADIR%%/aslead2.ins
+%%DATADIR%%/asshort.ins
+%%DATADIR%%/blackysnare.ins
+%%DATADIR%%/blead.ins
+%%DATADIR%%/buzzorgan.ins
+%%DATADIR%%/buzzplinkenenenen.ins
+%%DATADIR%%/crimlead.ins
+%%DATADIR%%/die_plinken.ins
+%%DATADIR%%/evlead1.ins
+%%DATADIR%%/explos.ins
+%%DATADIR%%/fbasspop.ins
+%%DATADIR%%/futlead.ins
+%%DATADIR%%/gluc_globber.ins
+%%DATADIR%%/mll_lead.ins
+%%DATADIR%%/mt_lead.ins
+%%DATADIR%%/mvt_snare.ins
+%%DATADIR%%/myfbass.ins
+%%DATADIR%%/nice_bass2.ins
+%%DATADIR%%/nice_short.ins
+%%DATADIR%%/panicblip.ins
+%%DATADIR%%/plerk1.ins
+%%DATADIR%%/plerk2.ins
+%%DATADIR%%/pooba.ins
+%%DATADIR%%/snipsnare.ins
+%%DATADIR%%/spleado.ins
+%%DATADIR%%/strangebass.ins
+%%DATADIR%%/tbass.ins
+%%DATADIR%%/tightsnare.ins
+%%DATADIR%%/w!m_pllead.ins
+%%DATADIR%%/wowbuzz.ins
+share/icons/hivelytracker.png
