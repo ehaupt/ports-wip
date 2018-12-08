@@ -47,3 +47,5 @@ $ hivelytracker
 ```
 
 # Tickets/Bugs
+
+* https://github.com/pete-gordon/hivelytracker/issues/35
