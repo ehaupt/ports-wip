@@ -1,4 +1,4 @@
---- Makefile.orig	2018-09-06 06:41:39 UTC
+--- Makefile.orig	2022-03-10 13:59:41 UTC
 +++ Makefile
 @@ -0,0 +1,20 @@
 +SUBDIRS = sdl
@@ -6,18 +6,18 @@
 +all: $(SUBDIRS)
 + 
 +$(SUBDIRS):
-+	$(MAKE) -f Makefile.FreeBSD -C $@
++	$(MAKE_ENV) $(MAKE) -f Makefile.FreeBSD -C $@
 +
 +strip:
 +	strip sdl/hivelytracker
 +
-+install: strip
-+	mkdir -p $(DESTDIR)$(MANPREFIX)/man/man1 $(DESTDIR)$(PREFIX)/share/icons
-+	install -m 755 sdl/hivelytracker $(DESTDIR)$(PREFIX)/bin
-+	install -m 644 sdl/winicon.png $(DESTDIR)$(PREFIX)/share/icons/hivelytracker.png
-+	install -m 644 sdl/hivelytracker.desktop $(DESTDIR)$(PREFIX)/share/applications
-+	cp -Rpv Instruments $(DESTDIR)$(DATADIR)/
-+	cp -Rpv Skins $(DESTDIR)$(DATADIR)/
-+	cp -Rpv Songs $(DESTDIR)$(EXAMPLESDIR)/
++#install: strip
++#	mkdir -p $(DESTDIR)$(MANPREFIX)/man/man1 $(DESTDIR)$(PREFIX)/share/icons
++#	install -m 755 sdl/hivelytracker $(DESTDIR)$(PREFIX)/bin
++#	install -m 644 sdl/winicon.png $(DESTDIR)$(PREFIX)/share/icons/hivelytracker.png
++#	install -m 644 sdl/hivelytracker.desktop $(DESTDIR)$(PREFIX)/share/applications
++#	cp -Rpv Instruments $(DESTDIR)$(DATADIR)/
++#	cp -Rpv Skins $(DESTDIR)$(DATADIR)/
++#	cp -Rpv Songs $(DESTDIR)$(EXAMPLESDIR)/
 +
 +.PHONY: $(SUBDIRS)

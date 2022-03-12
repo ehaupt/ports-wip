@@ -1,21 +1,21 @@
---- sdl/Makefile.FreeBSD.orig	2018-09-06 06:12:36 UTC
+--- sdl/Makefile.FreeBSD.orig	2022-03-11 16:59:01 UTC
 +++ sdl/Makefile.FreeBSD
 @@ -0,0 +1,51 @@
 +
 +WRAPPERDIR := $(CURDIR)
 +BASEDIR = $(CURDIR)/..
 +
-+CC ?= gcc
++CC ?= cc
++PREFIX ?= /usr/local
 +
-+CFLAGS += -g -D__SDL_WRAPPER__
++CFLAGS += -D__SDL_WRAPPER__
 +
-+CFLAGS += -g $(shell PKG_CONFIG_PATH=/usr/local/libdata/pkgconfig pkg-config sdl --cflags) $(shell PKG_CONFIG_PATH=/usr/local/libdata/pkgconfig pkg-config gtk+-2.0 --cflags)
-+LFLAGS += -lm -L/usr/$(BASELIBDIR) $(shell PKG_CONFIG_PATH=/usr/local/libdata/pkgconfig pkg-config sdl --libs) $(shell PKG_CONFIG_PATH=/usr/local/libdata/pkgconfig pkg-config gtk+-2.0 --libs) -lSDL_image -lSDL_ttf -lfreetype -lz -lX11
-+PREFIX ?= /usr
++BASELIBDIR := lib
++CFLAGS += $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH):$(PREFIX)/$(BASELIBDIR)/pkgconfig pkg-config sdl --cflags) $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH):$(PREFIX)/$(BASELIBDIR)/pkgconfig pkg-config gtk+-2.0 --cflags)
++LFLAGS += $(LDFLAGS) -lm -L$(PREFIX)/$(BASELIBDIR) $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH):$(PREFIX)/$(BASELIBDIR)/pkgconfig pkg-config sdl --libs) $(shell PKG_CONFIG_PATH=$(PKG_CONFIG_PATH):$(PREFIX)/$(BASELIBDIR)/pkgconfig pkg-config gtk+-2.0 --libs) -lSDL_image -lSDL_ttf -lfreetype -lz -lX11
 +
 +CFLAGS += -I$(BASEDIR) \
-+          -I$(WRAPPERDIR) \
-+          -Ic:/mingw/include/SDL
++          -I$(WRAPPERDIR)
 +
 +TARGET = hivelytracker
 +
@@ -42,13 +42,13 @@
 +clean:
 +	rm $(OBJECTS) $(OBJECTS:.o=.d) $(TARGET)
 +
-+install: strip
-+	mkdir -p $(DESTDIR)$(MANPREFIX)/man/man1 $(DESTDIR)$(PREFIX)/share/icons
-+	install -m 755 hivelytracker $(DESTDIR)$(PREFIX)/bin
-+	install -m 644 winicon.png $(DESTDIR)$(PREFIX)/share/icons/hivelytracker.png
-+	install -m 644 hivelytracker.desktop $(DESTDIR)$(PREFIX)/share/applications
-+	cp -Rpv ../Instruments $(DESTDIR)$(PREFIX)/share/hivelytracker/
-+	cp -Rpv ../Skins $(DESTDIR)$(PREFIX)/share/hivelytracker/
-+
-+strip:
-+	strip hivelytracker
++#install:
++#	install -Dm644 ../Docs/hivelytracker.1 $(PREFIX)/share/man/man1/hivelytracker.1
++#	gzip -9 $(PREFIX)/share/man/man1/hivelytracker.1
++#	install -Dm 755 ../sdl/hivelytracker $(PREFIX)/bin/hivelytracker
++#	install -Dm 644 ../sdl/winicon.png $(PREFIX)/share/icons/hivelytracker.png
++#	install -Dm 644 ../sdl/hivelytracker.desktop $(PREFIX)/share/applications/hivelytracker.desktop
++#	mkdir $(PREFIX)/share/hivelytracker
++#	cp -r ../Instruments $(PREFIX)/share/hivelytracker/Instruments
++#	cp -r ../Skins $(PREFIX)/share/hivelytracker/Skins
++#	cp -r ../ttf $(PREFIX)/share/hivelytracker/ttf

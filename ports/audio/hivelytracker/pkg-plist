@@ -1,34 +1,74 @@
 bin/hivelytracker
 share/applications/hivelytracker.desktop
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/chiprolled.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/doobrey_gubbins.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/drainage_proble.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/illuminated.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/karma.ahx
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/moderate_sellotaping.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/sliding_away.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/sunspots.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/syphus-Afterstorm.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/there_you_are.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/waiting_for_a_message.hvl
-%%PORTEXAMPLES%%%%EXAMPLESDIR%%/yoake_no_myoujou.hvl
-%%DATADIR%%/Filtered Bass1.ins
-%%DATADIR%%/Filtered Bass2.ins
-%%DATADIR%%/Filtered Bassdrum1.ins
-%%DATADIR%%/Filtered FX1.ins
-%%DATADIR%%/Filtered Hihat1.ins
-%%DATADIR%%/Filtered Lead1.ins
-%%DATADIR%%/Filtered Lead2.ins
-%%DATADIR%%/Filtered Snare1.ins
-%%DATADIR%%/Filtered Technobassdrum1.ins
-%%DATADIR%%/Ring Modulation Test 1.ins
-%%DATADIR%%/Ring Modulation Test 2.ins
-%%DATADIR%%/Ring Modulation Test 3.ins
-%%DATADIR%%/Ring Modulation Test 4.ins
-%%DATADIR%%/Ring Modulation Test 5.ins
-%%DATADIR%%/Ring Modulation Test 6.ins
-%%DATADIR%%/Ring Modulation Test 7.ins
-%%DATADIR%%/Ring Modulation Test 8.ins
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/chiprolled.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/doobrey_gubbins.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/drainage_proble.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/illuminated.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/karma.ahx
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/moderate_sellotaping.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/sliding_away.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/sunspots.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/syphus-Afterstorm.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/there_you_are.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/waiting_for_a_message.hvl
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/Songs/yoake_no_myoujou.hvl
+%%DATADIR%%/Instruments/Filtered Bass1.ins
+%%DATADIR%%/Instruments/Filtered Bass2.ins
+%%DATADIR%%/Instruments/Filtered Bassdrum1.ins
+%%DATADIR%%/Instruments/Filtered FX1.ins
+%%DATADIR%%/Instruments/Filtered Hihat1.ins
+%%DATADIR%%/Instruments/Filtered Lead1.ins
+%%DATADIR%%/Instruments/Filtered Lead2.ins
+%%DATADIR%%/Instruments/Filtered Snare1.ins
+%%DATADIR%%/Instruments/Filtered Technobassdrum1.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 1.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 2.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 3.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 4.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 5.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 6.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 7.ins
+%%DATADIR%%/Instruments/Ring Modulation Test 8.ins
+%%DATADIR%%/Instruments/apol.7-b5.ins
+%%DATADIR%%/Instruments/apol.Snare5.ins
+%%DATADIR%%/Instruments/apol.lead5.ins
+%%DATADIR%%/Instruments/apol.m7.ins
+%%DATADIR%%/Instruments/apol.major7.ins
+%%DATADIR%%/Instruments/as_plink.ins
+%%DATADIR%%/Instruments/as_reallynice.ins
+%%DATADIR%%/Instruments/asbassx.ins
+%%DATADIR%%/Instruments/asbassx2.ins
+%%DATADIR%%/Instruments/aslead.ins
+%%DATADIR%%/Instruments/aslead2.ins
+%%DATADIR%%/Instruments/asshort.ins
+%%DATADIR%%/Instruments/blackysnare.ins
+%%DATADIR%%/Instruments/blead.ins
+%%DATADIR%%/Instruments/buzzorgan.ins
+%%DATADIR%%/Instruments/buzzplinkenenenen.ins
+%%DATADIR%%/Instruments/crimlead.ins
+%%DATADIR%%/Instruments/die_plinken.ins
+%%DATADIR%%/Instruments/evlead1.ins
+%%DATADIR%%/Instruments/explos.ins
+%%DATADIR%%/Instruments/fbasspop.ins
+%%DATADIR%%/Instruments/futlead.ins
+%%DATADIR%%/Instruments/gluc_globber.ins
+%%DATADIR%%/Instruments/mll_lead.ins
+%%DATADIR%%/Instruments/mt_lead.ins
+%%DATADIR%%/Instruments/mvt_snare.ins
+%%DATADIR%%/Instruments/myfbass.ins
+%%DATADIR%%/Instruments/nice_bass2.ins
+%%DATADIR%%/Instruments/nice_short.ins
+%%DATADIR%%/Instruments/panicblip.ins
+%%DATADIR%%/Instruments/plerk1.ins
+%%DATADIR%%/Instruments/plerk2.ins
+%%DATADIR%%/Instruments/pooba.ins
+%%DATADIR%%/Instruments/snipsnare.ins
+%%DATADIR%%/Instruments/spleado.ins
+%%DATADIR%%/Instruments/strangebass.ins
+%%DATADIR%%/Instruments/tbass.ins
+%%DATADIR%%/Instruments/tightsnare.ins
+%%DATADIR%%/Instruments/w!m_pllead.ins
+%%DATADIR%%/Instruments/wowbuzz.ins
 %%DATADIR%%/Skins/SIDMonster-Light/Settings_os3
 %%DATADIR%%/Skins/SIDMonster-Light/Settings_os4
 %%DATADIR%%/Skins/SIDMonster-Light/aboutfont.png
@@ -85,44 +125,27 @@ share/applications/hivelytracker.desktop
 %%DATADIR%%/Skins/Vintage/trkbankr.png
 %%DATADIR%%/Skins/Vintage/vumeter.png
 %%DATADIR%%/Skins/Vintage/wavemeter.png
-%%DATADIR%%/apol.7-b5.ins
-%%DATADIR%%/apol.Snare5.ins
-%%DATADIR%%/apol.lead5.ins
-%%DATADIR%%/apol.m7.ins
-%%DATADIR%%/apol.major7.ins
-%%DATADIR%%/as_plink.ins
-%%DATADIR%%/as_reallynice.ins
-%%DATADIR%%/asbassx.ins
-%%DATADIR%%/asbassx2.ins
-%%DATADIR%%/aslead.ins
-%%DATADIR%%/aslead2.ins
-%%DATADIR%%/asshort.ins
-%%DATADIR%%/blackysnare.ins
-%%DATADIR%%/blead.ins
-%%DATADIR%%/buzzorgan.ins
-%%DATADIR%%/buzzplinkenenenen.ins
-%%DATADIR%%/crimlead.ins
-%%DATADIR%%/die_plinken.ins
-%%DATADIR%%/evlead1.ins
-%%DATADIR%%/explos.ins
-%%DATADIR%%/fbasspop.ins
-%%DATADIR%%/futlead.ins
-%%DATADIR%%/gluc_globber.ins
-%%DATADIR%%/mll_lead.ins
-%%DATADIR%%/mt_lead.ins
-%%DATADIR%%/mvt_snare.ins
-%%DATADIR%%/myfbass.ins
-%%DATADIR%%/nice_bass2.ins
-%%DATADIR%%/nice_short.ins
-%%DATADIR%%/panicblip.ins
-%%DATADIR%%/plerk1.ins
-%%DATADIR%%/plerk2.ins
-%%DATADIR%%/pooba.ins
-%%DATADIR%%/snipsnare.ins
-%%DATADIR%%/spleado.ins
-%%DATADIR%%/strangebass.ins
-%%DATADIR%%/tbass.ins
-%%DATADIR%%/tightsnare.ins
-%%DATADIR%%/w!m_pllead.ins
-%%DATADIR%%/wowbuzz.ins
-share/icons/hivelytracker.png
+%%DATADIR%%/ttf/DejaVuSans-Bold.ttf
+%%DATADIR%%/ttf/DejaVuSans-BoldOblique.ttf
+%%DATADIR%%/ttf/DejaVuSans-ExtraLight.ttf
+%%DATADIR%%/ttf/DejaVuSans-Oblique.ttf
+%%DATADIR%%/ttf/DejaVuSans.ttf
+%%DATADIR%%/ttf/DejaVuSansCondensed-Bold.ttf
+%%DATADIR%%/ttf/DejaVuSansCondensed-BoldOblique.ttf
+%%DATADIR%%/ttf/DejaVuSansCondensed-Oblique.ttf
+%%DATADIR%%/ttf/DejaVuSansCondensed.ttf
+%%DATADIR%%/ttf/DejaVuSansMono-Bold.ttf
+%%DATADIR%%/ttf/DejaVuSansMono-BoldOblique.ttf
+%%DATADIR%%/ttf/DejaVuSansMono-Oblique.ttf
+%%DATADIR%%/ttf/DejaVuSansMono.ttf
+%%DATADIR%%/ttf/DejaVuSerif-Bold.ttf
+%%DATADIR%%/ttf/DejaVuSerif-BoldItalic.ttf
+%%DATADIR%%/ttf/DejaVuSerif-Italic.ttf
+%%DATADIR%%/ttf/DejaVuSerif.ttf
+%%DATADIR%%/ttf/DejaVuSerifCondensed-Bold.ttf
+%%DATADIR%%/ttf/DejaVuSerifCondensed-BoldItalic.ttf
+%%DATADIR%%/ttf/DejaVuSerifCondensed-Italic.ttf
+%%DATADIR%%/ttf/DejaVuSerifCondensed.ttf
+share/icons/winicon.bmp
+share/icons/winicon.png
+share/man/man1/hivelytracker.1.gz
